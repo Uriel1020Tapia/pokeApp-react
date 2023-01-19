@@ -1,2 +1,2 @@
 import { createContext } from "react";
-export const PokemoContext = createContext();
+export const PokemonContext = createContext();

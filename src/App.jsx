@@ -1,12 +1,13 @@
 import { AppRouter } from "./AppRouter"
-// import { PokemonProvider } from './context/PokemonProvider';
+import { ButtonScrollTop } from "./components/ButtonScrollTop";
+import { PokemonProvider } from './context/PokemonProvider';
 
 function App() {
   return (
-    // <PokemonProvider>
-        <AppRouter></AppRouter>
-    // </PokemonProvider>
-    
+    <PokemonProvider>
+        <AppRouter/>
+        <ButtonScrollTop></ButtonScrollTop>
+    </PokemonProvider>
   )
 }
 
